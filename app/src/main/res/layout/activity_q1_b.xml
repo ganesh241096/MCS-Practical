@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SlipNo_3.Q1B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Enter String" />
+
+        <EditText
+            android:id="@+id/etString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter String" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rdGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/uppercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uppercase" />
+
+        <RadioButton
+            android:id="@+id/lowercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lowercase" />
+
+        <RadioButton
+            android:id="@+id/right5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right 5 Character" />
+
+        <RadioButton
+            android:id="@+id/left5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lreft 5 Character" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Click" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Output : " />
+
+        <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter String"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+</LinearLayout>
